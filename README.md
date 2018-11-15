@@ -34,20 +34,19 @@
 
     ```
     npm --registry https://registry.npm.taobao.org install express
-
     ```
+
 * 2.持久使用
 
     ```
     npm config set registry https://registry.npm.taobao.org
-    
     ```
     #### 配置后可通过下面方式来验证是否成功 
 
     ```
     npm config get registry 或者 npm info express
-
     ```
+
 * 3.通过cnpm使用
 
     ```
@@ -57,7 +56,6 @@
 # 说明
 
 >  如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
-
 >  如要在编译过程中遇到错误，点击[联系作者](https://www.vipbic.com/ourselves.html)
 
 #项目结构
