@@ -45,6 +45,7 @@ const generateConfig = env => {
                 resolve('src'),
                 resolve('node_modules')
             ],
+            //设置全局
             alias: {
                 '@': path.resolve(__dirname, '../src')
             }
@@ -86,6 +87,16 @@ const generateConfig = env => {
                         'css-loader',
                         'postcss-loader',
                         'less-loader'
+                    ],
+                },
+                {
+                    test: /\.sass$/,
+                    use: [
+                        'style-loader',
+                        MiniCssExtractPlugin.loader,
+                        'css-loader',
+                        'postcss-loader',
+                        'sass-loader'
                     ],
                 }
             ]
