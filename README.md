@@ -21,6 +21,7 @@
 │   ├── test1.html                              // 页面入口1
 │   ├── test2.html                              // 页面入口2
 │   ├── test3.html                              // 页面入口3
+│   ├── test4.html                              // 页面入口4
 │   ├── ....html                                // 页面入口....
 ├── images                                      // 图片路径
 ├── src                                         // 源码目录
@@ -31,6 +32,8 @@
 │   ├── css                                     // 公共css目录
 │   ├── libs                                    // 公共js扩展目录
 │   ├── pages                                   // 入口页面目录
+│   ├── vuex                                    // vuex配置目录
+│   │   ├── store.js                            // 配置文件
 │   ├── index.html                              // 公共模板文件html
 ├── package-lock.json                           // 依赖文件
 ├── package.json                                // 依赖文件
@@ -58,6 +61,8 @@
     测试入口2: http://localhost:9001/test2.html
     
     测试入口3: http://localhost:9001/test3.html
+    
+    测试入口4-演示vuex: http://localhost:9001/test4.html
 
 ```
 
@@ -66,6 +71,8 @@
  * [在线测试入口2](https://hangjob.github.io/vue-multiple-webpack-template/dist/test2.html)
 
  * [在线测试入口3](https://hangjob.github.io/vue-multiple-webpack-template/dist/test3.html)
+
+ * [在线测试入口4-演示vuex](https://hangjob.github.io/vue-multiple-webpack-template/dist/test4.html)
 
 ### &nbsp;&nbsp;&nbsp;网络下载太慢,请使用淘宝镜像
 

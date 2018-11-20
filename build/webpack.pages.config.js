@@ -47,6 +47,14 @@ const pages = [
         },
         name:'test3',
         chunks:['vue','c']
+    }),
+    generatePage({
+        title:'演示vuex',
+        entry:{
+            d:'./src/pages/vuex.js'
+        },
+        name:'test4',
+        chunks:['vue','d']
     })
 ]
 
