@@ -37,7 +37,7 @@
 │   ├── index.html                              // 公共模板文件html
 ├── package-lock.json                           // 依赖文件
 ├── package.json                                // 依赖文件
-├── postcss. .js                                // 配置样式文件
+├── postcss.js                                // 配置样式文件
 .
 
 ```
