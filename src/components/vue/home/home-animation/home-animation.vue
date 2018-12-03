@@ -1,7 +1,8 @@
 <template>
     <div>
         <template>测试，自动生成浏览器前缀</template>
-        <div class="animation"></div>
+        <div class="animation">
+        </div>
     </div>
 </template>
 <script>

@@ -55,6 +55,14 @@ const pages = [
         },
         name:'test4',
         chunks:['vue','d']
+    }),
+    generatePage({
+        title:'演示router',
+        entry:{
+            e:'./src/pages/router.js'
+        },
+        name:'test5',
+        chunks:['vue','e']
     })
 ]
 

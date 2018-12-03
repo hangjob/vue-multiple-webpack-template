@@ -32,6 +32,13 @@
 │   ├── css                                     // 公共css目录
 │   ├── libs                                    // 公共js扩展目录
 │   ├── pages                                   // 入口页面目录
+│   │   ├── a.js                                // 测试页面test1.html
+│   │   ├── b.js                                // 测试页面test2.html
+│   │   ├── c.js                                // 测试页面test3.html
+│   │   ├── router.js                           // 测试页面test4.html
+│   │   ├── vuex.js                             // 测试页面test5.html
+│   │   ├─  ....js                              // 可添加更多js入口文件
+│   ├── router                                  // 路由配置文件
 │   ├── vuex                                    // vuex配置目录
 │   │   ├── store.js                            // 配置文件
 │   ├── index.html                              // 公共模板文件html
@@ -52,7 +59,7 @@
 
     cd vue-multiple-webpack-template
 
-    npm install  或 yarn(推荐)
+    npm install  或 yarn
 
     npm run dev
 
@@ -64,6 +71,8 @@
     
     测试入口4-演示vuex: http://localhost:9001/test4.html
 
+    测试入口5-演示router: http://localhost:9001/test5.html
+
 ```
 
  * [在线测试入口1](https://hangjob.github.io/vue-multiple-webpack-template/dist/test1.html)
@@ -73,6 +82,8 @@
  * [在线测试入口3](https://hangjob.github.io/vue-multiple-webpack-template/dist/test3.html)
 
  * [在线测试入口4-演示vuex](https://hangjob.github.io/vue-multiple-webpack-template/dist/test4.html)
+
+ * [在线测试入口5-演示router](https://hangjob.github.io/vue-multiple-webpack-template/dist/test5.html)
 
 ### &nbsp;&nbsp;&nbsp;网络下载太慢,请使用淘宝镜像
 

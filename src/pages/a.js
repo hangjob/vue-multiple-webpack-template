@@ -6,7 +6,6 @@ import '@/css/a.css'
 
 import Home from '../components/vue/home/home.vue'
 
-
 console.log('this is a')
 
 new Vue({
